@@ -27,7 +27,6 @@ end
 function love.mousepressed(x, y, button)
     if button == 1 then
         createCircle(x, y)
-        print(#circles)
     end
 end
 
